@@ -1,0 +1,110 @@
+* {
+    font-family: 'Alkatra', cursive;
+    font-weight: 400px;
+    cursor: default;
+  }
+  
+  #body {
+    background-color: #FCF4D9;
+  }
+  
+  #computer {
+      background-color: #8ED2C9;
+  }
+    
+  #player {
+        background-color: #FF7A5A;
+  }
+  
+  #title {
+    text-align: center;
+    color: #2d3436;
+  }
+  
+  #score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #player,
+  #computer {
+    position: relative;
+    flex-grow: 1;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #player h2,
+  #computer h2 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #player-name,
+  #computer-name {
+    font-size: 24px;
+  }
+  
+  #computer-name {
+    text-align: right;
+  }
+  
+  #player-score,
+  #computer-score {
+    position: absolute;
+    top: 8px;
+    font-size: 52px;
+  }
+  
+  #player-score {
+    right: 20px;
+  }
+  
+  #player #player-choice,
+  #computer #computer-choice {
+    list-style: none;
+    text-align: center;
+    margin: 30px 0 0;
+    padding: 0;
+  }
+  
+  #player #player-choice li,
+  #computer #computer-choice li {
+    display: inline;
+    padding: 0 15px;
+  }
+  
+  #player #player-choice a,
+  #computer #computer-choice a {
+    opacity: 0.2;
+  }
+  
+  #player #player-choice a:hover,
+  #player #player-choice a.selectOn,
+  #computer #computer-choice a.selectOn{
+    opacity: 1;
+  }
+  
+  #player #player-choice img,
+  #computer #computer-choice img {
+    max-width: 80px;
+  }
+  
+  #versus {
+    color: #2d3436;
+    font-size: 80px;
+    padding: 0 40px;
+  }
+  
+  #message {
+    background-color: #FFB85F;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #372800;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
